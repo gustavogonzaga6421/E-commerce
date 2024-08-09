@@ -1,0 +1,23 @@
+/* Estilos para o cabeçalho principal */
+.cabeçalho {
+    background-color: white;             /* Define a cor de fundo do cabeçalho como branca */
+    display: flex;                       /* Usa o layout flexível para o cabeçalho */
+    flex-direction: row;                 /* Organiza os itens em uma linha horizontal */
+    justify-content: space-between;      /* Distribui os itens com espaço igual entre eles */
+    align-items: center;                 /* Alinha os itens verticalmente ao centro */
+}
+
+/* Estilos para o container dentro do cabeçalho */
+.cabeçalho_container {
+    display: flex;                       /* Usa o layout flexível para o container */
+    flex-direction: row;                 /* Organiza os itens em uma linha horizontal */
+    align-items: center;                 /* Alinha os itens verticalmente ao centro */
+}
+
+/* Estilos para o menu hambúrguer dentro do cabeçalho */
+.cabeçalho_menu-hamburguer {
+    background-image: url(../assets/Menu.svg); /* Define a imagem de fundo do menu hambúrguer */
+    display: inline-block;                  /* Faz com que o elemento se comporte como um bloco inline */
+    width: 40px;                            /* Define a largura do menu hambúrguer */
+    height: 40px;                           /* Define a altura do menu hambúrguer */
+}

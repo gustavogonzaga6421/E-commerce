@@ -1,0 +1,12 @@
+/* Importa o arquivo de estilo externo 'header.css' */
+@import url(header.css);
+
+/* Define variáveis de estilo globais usando o seletor :root */
+:root {
+    --cor-fundo: grey; /* Define uma variável de cor para o fundo, que pode ser usada em todo o CSS */
+}
+
+/* Estilos para o elemento <body> */
+body {
+    background-color: var(--cor-fundo); /* Aplica a cor de fundo definida pela variável 'cor-fundo' */
+}
